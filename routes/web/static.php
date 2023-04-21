@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    Log::debug('An informational message.');
+    Log::debug('MyPromoter: An informational message.');
     return view('static.home');
 });
 
